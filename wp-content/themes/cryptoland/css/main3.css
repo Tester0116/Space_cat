@@ -5700,7 +5700,7 @@ body {
   font-family: Catamaran, sans-serif;
   overflow-x: hidden;
   color: #aab2cd;
-  background-color: #491e5b;
+  background-color: #15131b;
 }
 
 body input,
@@ -6127,7 +6127,7 @@ section {
   top: 0;
   left: 0;
   width: 100%;
-  background-color: #491e5b;
+  background-color: #15131b;
   z-index: 11;
   height: 90px;
   border-bottom: 1px solid #333853;
@@ -6299,7 +6299,7 @@ section {
 
 .fixed-menu {
   position: fixed;
-  background-color: #491e5b;
+  background-color: #15131b;
   width: 100%;
   height: 100%;
   left: 0;
@@ -6740,7 +6740,7 @@ section {
   font-size: 40px;
   font-family: Roboto;
   font-weight: 500;
-  color: #491e5b;
+  color: #15131b;
   text-shadow: none;
 }
 
@@ -6828,7 +6828,7 @@ section {
 
 .service {
   width: 100%;
-  height: 250px;
+  min-height: 250px;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -6856,6 +6856,9 @@ section {
 .service:hover .service__bg {
   width: 105%;
   height: 105%;
+}
+.service:hover .service__description {
+  font-weight: 700;
 }
 
 .service:last-child {
@@ -6892,6 +6895,24 @@ section {
   -webkit-transition: width 0.4s, height 0.4s;
   -o-transition: width 0.4s, height 0.4s;
   transition: width 0.4s, height 0.4s;
+}
+.service__img {
+  width: 30px;
+  height: 30px;
+}
+
+.service__description {
+  z-index: 2;
+  position: relative;
+  z-index: 1;
+  font-size: 14px;
+  text-align: center;
+  margin: 15px 5px;
+  font-family: Raleway;
+  color: #fff;
+  font-weight: 400;
+  letter-spacing: -0.32px;
+  transition: 100ms;
 }
 
 .map {
@@ -6984,7 +7005,7 @@ section {
   border: 2px solid #00cde4;
   -webkit-border-radius: 50%;
   border-radius: 50%;
-  background-color: #491e5b;
+  background-color: #15131b;
   position: absolute;
   top: 2px;
   left: 0;
@@ -7222,7 +7243,7 @@ section {
 }
 
 .economy__block {
-  background-color: #7061b2;
+  background: linear-gradient(149deg, #123f6e 5%, #222954 40%, #0a192c 70%);
   padding: 35px 15px 30px;
   color: #fff;
   position: relative;
@@ -7599,7 +7620,7 @@ section {
   font-size: 18px;
   font-family: Raleway;
   font-weight: 700;
-  color: #491e5b;
+  color: #15131b;
 }
 
 .doc:hover:before {
